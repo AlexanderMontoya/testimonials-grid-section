@@ -51,6 +51,9 @@
 }
 .app__testimonials .testimonial.one {
   background-color: var(--color-moderate-violet);
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 100px) 0px;
   grid-area: one;
 }
 .app__testimonials .testimonial.two {
@@ -94,13 +97,6 @@
 }
 .app__testimonials .testimonial__content {
   position: relative;
-}
-.app__testimonials .testimonial__content .testimonial__quotation {
-  position: absolute;
-  top: -80px;
-  right: 70px;
-  z-index: 0;
-  opacity: 40%;
 }
 .app__testimonials .testimonial__content .testimonial__title {
   font-size: 18px;
